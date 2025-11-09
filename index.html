@@ -3,31 +3,132 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sistem Belum Siap</title>
+    <title>Login ke Halaman Nisa</title>
     <style>
+      * {
+        box-sizing: border-box;
+      }
       body {
-        background: #0a0a0a;
+        background: linear-gradient(135deg, #0a0a0a, #1a0010);
+        font-family: 'Poppins', sans-serif;
         color: #fff;
         display: flex;
         justify-content: center;
         align-items: center;
         height: 100vh;
-        flex-direction: column;
-        font-family: 'Poppins', sans-serif;
+        margin: 0;
+      }
+      .login-container {
+        background: rgba(24, 0, 16, 0.9);
+        padding: 35px 25px 40px;
+        border-radius: 12px;
+        box-shadow: 0 0 25px rgba(224, 0, 131, 0.3);
+        width: 320px;
+        text-align: center;
+        border: 1px solid rgba(224, 0, 131, 0.3);
+      }
+      .avatar {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 15px;
+        border: 3px solid #e00083;
+        box-shadow: 0 0 15px rgba(224, 0, 131, 0.4);
+      }
+      h2 {
+        margin-bottom: 25px;
+        color: #e00083;
+        font-weight: 600;
+        letter-spacing: 1px;
+      }
+      input {
+        width: 100%;
+        padding: 10px 12px;
+        margin: 10px 0;
+        border-radius: 8px;
+        border: 1px solid rgba(224, 0, 131, 0.4);
+        background: #1a0010;
+        color: #fff;
+        font-size: 14px;
+        outline: none;
+        transition: all 0.2s ease;
+      }
+      input:focus {
+        border-color: #e00083;
+        box-shadow: 0 0 8px rgba(224, 0, 131, 0.5);
+      }
+      button {
+        width: 100%;
+        padding: 10px;
+        background: #e00083;
+        border: none;
+        border-radius: 8px;
+        color: #fff;
+        font-weight: 600;
+        font-size: 15px;
+        cursor: pointer;
+        margin-top: 12px;
+        transition: 0.2s;
+      }
+      button:hover {
+        background: #ff1fa1;
+        box-shadow: 0 0 10px rgba(224, 0, 131, 0.7);
+      }
+      .error {
+        color: #ff6b9c;
+        font-size: 13px;
+        margin-top: 10px;
+        display: none;
+      }
+      footer {
+        position: absolute;
+        bottom: 20px;
+        font-size: 12px;
+        color: #aaa;
+        text-align: center;
+        width: 100%;
+        opacity: 0.8;
       }
     </style>
-    <script>
-      const releaseDate = new Date('2025-11-10T00:00:00+07:00'); // ganti ke tanggal rilis kamu
-      const now = new Date();
-
-      if (now >= releaseDate) {
-        // redirect ke halaman utama saat waktunya tiba
-        window.location.href = 'main.html'; // ganti ke halaman utama kamu
-      }
-    </script>
   </head>
   <body>
-    <h1>Sistem Belum Siap</h1>
-    <p>Website akan aktif pada 10 November 2025.</p>
+    <div class="login-container">
+      <!-- Gambar bulat di atas login -->
+      <img src="images/nisa2.jpg" alt="Avatar" class="avatar" />
+
+      <h2>LOGIN</h2>
+      <input type="text" id="username" placeholder="Username" autocomplete="off" />
+      <input type="password" id="password" placeholder="Password" autocomplete="off" />
+      <button id="loginBtn">Masuk</button>
+      <div class="error" id="error">Username atau password salah!</div>
+    </div>
+
+    <footer>© 2025 Halaman Nisa 💖</footer>
+
+    <script>
+      document.getElementById('loginBtn').addEventListener('click', function () {
+        const username = document.getElementById('username').value.trim();
+        const password = document.getElementById('password').value.trim();
+
+        const correctUsername = 'nisa_cantikk';
+        const correctPassword = 'cantik_selalu';
+
+        if (username === correctUsername && password === correctPassword) {
+          // Arahkan ke halaman utama
+          window.location.href = 'main.html';
+        } else {
+          // Tampilkan error
+          document.getElementById('error').style.display = 'block';
+        }
+      });
+
+      // Tekan Enter untuk login
+      document.addEventListener('keypress', function (e) {
+        if (e.key === 'Enter') {
+          document.getElementById('loginBtn').click();
+        }
+      });
+    </script>
   </body>
 </html>

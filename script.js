@@ -404,7 +404,7 @@ function startPhotoShow() {
             <div class="photo-frames-container">
                 ${framesHTML}
             </div>
-            <div class="photo-strip-footer">💕 BIRTHDAY MEMORIES 💕</div>
+            <div class="photo-strip-footer">💕 Nisaa 💕</div>
         </div>
         <div class="scroll-indicator">⬇ Scroll Down ⬇</div>
     `;
