@@ -226,9 +226,38 @@ sayangg, aku minta maaf yaa kamu harus ngomong dulu buat dapet ini semua dari ak
 
 aku ngga tau mau ngomong apalagi, tapi yang ini pingin banget aku omongin ke kamu, kamu tuu keras kepala banget, terus kalo marah suka toxic, jangan gitu yaa sayangg, sama satu lagi aku nii cemburuan, aku batesin banget buat ngga interaksi sama cewe lain yg emang ngga ada hubungan terutama dalam hal kerjaan, tapi kadang aku liat kamu masih komunikasi sama dinosaurus, alasannya pasti pingin liat hubungan dia, tapi yaudahlah semoga kamu ngerti yaa.
 
-udah itu ajaa, maaf yaa sayaangg kalo aku suka bikin kamu marah, sama jangan dibuat story yaa soal ini semuaa, ini webnya bisa dibuka terus kok
+udah itu ajaa, maaf yaa sayaangg kalo aku suka bikin kamu marah, sama jangan dibuat story yaa buat  websitenya, ini webnya bisa dibuka terus kok.
 
-lovee u moreee ❤️`;
+TAMBAHAN:
+
+09 November 2025, 11:22.
+
+Harusnya ngga ada tambahan, tapi gimana kamu juga udah tau website ini, karna kamu marah kmaren :(
+
+tapi sekarang udah ngga lagi hehheh...
+
+Aku dapet dari Tiktok semoga kamu sukaa :)
+
+@h4zell:
+
+tentang rasa yg tak mampu di diagnosa, dan tentang asa yg kian mengangkasa, aku berdoa kita selamanya.
+
+@finn:
+
+aku diberi rasa bahagia terhadap ciptaaan sang pencipta
+
+@araa:
+
+Tuhan sebaik baiknya seniman, dan kau sebaik baiknya mahakarya.
+
+@アウラダ:
+
+kamu menari, melangkah, berputar dengan indah di atas kertasku. pena ku begitu bebas, ketika bercerita tentangmu.
+
+
+Kamu lagi sakit perut pas aku buat ini, semoga cepet sembuh yaa sayangg, ngga sakit2 lagi, Aamiin
+
+you're half on my life 💕`;
 
   // Clear content and start fresh
   messageContent.innerHTML = '';
